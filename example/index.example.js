@@ -1,16 +1,5 @@
-## pipefy-stream
+'use strict';
 
-A nodeJS utility to handle streams pipeline
-
-### Install
-
-```
-npm install pipefy-stream
-```
-
-### Usage
-
-```
 const fs = require('fs');
 const pipefy = require('pipefy-stream');
 
@@ -24,9 +13,3 @@ pipefy([read, write], { propagateError: true }, error => {
     console.log('SUCESS');
   }
 });
-
-```
-
-### License
-
-MIT
