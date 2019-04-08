@@ -21,7 +21,7 @@ pipefy([read, write], { propagateError: true }, error => {
   if (error) {
     console.log(error);
   } else {
-    console.log('SUCESS');
+    console.log('SUCCESS');
   }
 });
 
